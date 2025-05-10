@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Key Services and Opportunities in Kenya</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+    }
+    section {
+      background-color: white;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #2e7d32;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+    footer {
+      background-color: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    input, textarea, button {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #2e7d32;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #27642b;
+    }
+    #chatbot {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 10px;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      display: none;
+    }
+    #chatbot-toggle {
+      position: fixed;
+      bottom: 20px;
+      right: 340px;
+      background-color: #2e7d32;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Key Services and Online Opportunities in Kenya</h1>
+  </header>
+  <main>
+    <section>
+      <h2>KUCCPS - Kenya Universities and Colleges Central Placement Service</h2>
+      <p>KUCCPS places students into universities, colleges, and TVETs after KCSE. It ensures fair placement based on merit and choices and allows for online revision of course preferences.</p>
+      <img src="https://kuccps.net/images/banner.jpg" alt="KUCCPS Image" />
+      <p><a href="https://students.kuccps.net/" target="_blank">Visit KUCCPS Portal</a></p>
+    </section>
+
+    <section>
+      <h2>HELB - Higher Education Loans Board</h2>
+      <p>HELB provides loans, bursaries, and scholarships to students in tertiary education. It supports tuition, upkeep, and postgraduate studies, with repayment required after graduation.</p>
+      <img src="https://www.helb.co.ke/images/logo.png" alt="HELB Logo" />
+      <p><a href="https://www.helb.co.ke/" target="_blank">Visit HELB Website</a></p>
+    </section>
+
+    <section>
+      <h2>KRA PIN Registration</h2>
+      <p>A KRA PIN is essential for formal transactions such as employment, opening bank accounts, business registration, and tax filing. It ensures compliance with tax regulations.</p>
+      <img src="https://www.kra.go.ke/images/logo.png" alt="KRA Logo" />
+      <p><a href="https://itax.kra.go.ke/KRA-Portal/" target="_blank">Register for KRA PIN</a></p>
+    </section>
+
+    <section>
+      <h2>Passport Application</h2>
+      <p>Kenyan citizens can apply for passports online via the eCitizen portal. The system allows for form filling, appointment booking, and tracking application status, reducing delays and promoting transparency.</p>
+      <img src="https://www.ecitizen.go.ke/images/logo.png" alt="eCitizen Logo" />
+      <p><a href="https://www.ecitizen.go.ke/" target="_blank">Apply for Passport</a></p>
+    </section>
+
+    <section>
+      <h2>Online Money Making via Web Design</h2>
+      <p>Web design offers various income opportunities, including freelancing, building sites for businesses, e-commerce, and offering online tutorials. Required skills include HTML, CSS, CMS tools, and graphic design. It supports flexible income and digital entrepreneurship.</p>
+      <img src="https://www.webdesignerdepot.com/cdn-origin/uploads/2020/09/featured_freelance-web-design.png" alt="Web Design Illustration" />
+      <p><a href="https://www.fiverr.com/" target="_blank">Start Freelancing on Fiverr</a></p>
+    </section>
+
+    <section>
+      <h2>Contact Us</h2>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Kenya Services Info Hub. All rights reserved.</p>
+  </footer>
+
+  <button id="chatbot-toggle">Chat with Assistant</button>
+  <div id="chatbot">
+    <p><strong>Chatbot:</strong> Hi! Ask me anything about KUCCPS, HELB, KRA, passport application, or web design!</p>
+    <input type="text" placeholder="Type your question here..." />
+  </div>
+
+  <script>
+    const toggleBtn = document.getElementById('chatbot-toggle');
+    const chatbotBox = document.getElementById('chatbot');
+    toggleBtn.addEventListener('click', () => {
+      chatbotBox.style.display = chatbotBox.style.display === 'block' ? 'none' : 'block';
+    });
+  </script>
+</body>
+</html>
